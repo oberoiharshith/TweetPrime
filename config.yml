@@ -1,0 +1,26 @@
+cache:
+  save_to_disk_interval: 60 # 60 seconds
+  ttl: 600 # 60 seconds
+  max_size: 1000 # 1000 key-value pairs
+  tweet_path: data/tweet_cache.pkl
+  user_path: data/user_cache.pkl
+mysql:
+  host: databaseteam8.c1coikyuqtk8.us-east-1.rds.amazonaws.com
+  user: admin
+  password: admin123
+  db: twitter
+  port: 3306
+mongodb:
+  host: cluster0.wdgelhd.mongodb.net
+  user: bhaveshsharma7895
+  password: 12345
+  db: Database_team_8
+neo4j:
+  host: neo4j+s://72aae374.databases.neo4j.io
+  user: neo4j
+  password: amQgIqoFlY-AySUC9zzTVLjbPuHDFLVGzoM9F_nn3uM
+  db: neo4j
+hashtag:
+  path: data/trending_hashtag.pkl
+  max_size: 20
+  save_to_disk_interval: 60 # 60 seconds
