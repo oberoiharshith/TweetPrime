@@ -1,4 +1,3 @@
-```markdown
 # TweetPrime
 
 TweetPrime is a lightweight analytics pipeline that pulls tweets from the Twitter API, stores them in three fit‑for‑purpose databases, and serves low‑latency insights to BI dashboards. Index tuning and read‑through caching cut typical query latency by about 70 percent.
@@ -14,8 +13,6 @@ TweetPrime is a lightweight analytics pipeline that pulls tweets from the Twitte
 - Compatible with Power BI and Grafana
 
 ## Repository layout
-```
-
 TweetPrime/
 ├── data/                 # Pickled caches
 ├── src/                  # Core library code
@@ -27,7 +24,7 @@ TweetPrime/
 ├── config.yml            # Sample runtime config
 └── Results.ipynb         # Benchmark notebook
 
-````
+
 
 ## Quick start
 1. **Clone and install**
@@ -36,7 +33,7 @@ TweetPrime/
    cd tweetprime
    python -m venv .venv && source .venv/bin/activate
    pip install -r requirements.txt
-````
+
 
 2. **Configure credentials**
    Edit `config.yml` or set environment variables for:
